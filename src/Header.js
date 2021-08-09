@@ -1,11 +1,12 @@
 import React, { Component } from "react";
+import headshot from "./headshot.jpeg"
 
 class Header extends Component {
    
   render() {
     return (
       <header className="resume-header container">
-        <img className="headshot" alt="myheadshot" src="headshot.png"/>
+        <img className="headshot" alt="myheadshot" src={headshot}/>
         <h1 className="resume-title">Johnson Le Thieu</h1>
         <h2><i>Full-Stack Software Engineer</i></h2>
         <p>(626) 346-4095 | johnsonle2929@gmail.com</p>

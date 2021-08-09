@@ -6,8 +6,6 @@ import Projects from "./Projects";
 import Education from "./Education";
 import Footer from "./Footer";
 
-
-
 class App extends Component {
   state = {
     counters: 0,
@@ -32,6 +30,7 @@ class App extends Component {
   render() {
     return (
       <div className="App container">
+
         <Header 
           // counters={this.state.counters}
           // summary={this.state.summary}

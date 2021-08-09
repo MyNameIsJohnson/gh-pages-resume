@@ -7,7 +7,7 @@ class Education extends Component {
       <div className="education container"> 
         <h3><b>EDUCATION:</b></h3>
           <ul>
-            <a target="_blank" href="https://drive.google.com/file/d/1-2zrtYe7j66z2rC8DxA_RLb4YQ-lGzfj/view?usp=sharing"><b>General Assembly, San Francisco, CA</b></a>
+            <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1-2zrtYe7j66z2rC8DxA_RLb4YQ-lGzfj/view?usp=sharing"><b>General Assembly, San Francisco, CA</b></a>
             <li>Adobe Digital Scholar - Software Engineer Immersive (12-week bootcamp), January 2020 - April 2020</li>
             
             <p><b>SoloLearn, Online Course</b></p>            
