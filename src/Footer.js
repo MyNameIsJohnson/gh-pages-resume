@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import footerIcon from "./logo.svg"
+import footerIcon from "./public/images/logo.svg"
 
 class Footer extends Component {
    

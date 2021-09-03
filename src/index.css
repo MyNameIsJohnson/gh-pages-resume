@@ -46,3 +46,8 @@ footer p{
   width: 20px;
   margin: 0;
 }
+
+.Collapsible {
+  color:#007bff;
+  text-align: center;
+}

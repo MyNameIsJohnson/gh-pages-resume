@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import headshot from "./headshot.jpeg"
+import headshot from "./public/images/headshot.jpeg"
 
 class Header extends Component {
    
