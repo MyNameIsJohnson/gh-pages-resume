@@ -9,9 +9,9 @@ class Work extends Component{
         <h4>Junior Frontend Software Engineer, Contract Role <a href="https://www.vergil.app/"> Vergil App </a> New York, NY, March 2021 - July 2021</h4>
           <ul>
             <li>Collaborate with stakeholders and Lead Engineers regarding design, structure, functionality and key components required</li>
-            <li></li>Built React components and screens for app and storybook
-            <li></li>Built frontend theme design with css
-            <li></li>Manage Github Repo, completed sprint assigned issues, Opening New Issues and Closing Pull Request with detailed summary
+            <li>Built React components and screens for app and storybook</li>
+            <li>Built frontend theme design with css</li>
+            <li>Manage Github Repo, completed sprint assigned issues, Opening New Issues and Closing Pull Request with detailed summary</li>
           </ul>
 
           <h4>Product Engineering Intern, <a href="https://www.frontdoorhome.com/">Frontdoor Inc.</a> Denver, CO, June 2020 - September 2020</h4>
