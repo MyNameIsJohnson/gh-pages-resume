@@ -9,11 +9,6 @@ class Projects extends Component {
 
 render(){
 
-  const trigger = {
-    margin: '40px',
-    border: '5px solid pink',
-    color: 'blue',
-  };
     return(
       <div className="projects container">
         <h3><b>PROJECTS:</b></h3> 
