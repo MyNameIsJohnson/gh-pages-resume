@@ -1,3 +1,5 @@
+The finished product can be viewed [here](https://mynameisjohnson.github.io/gh-pages-resume/).
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
