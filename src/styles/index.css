@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+  background: aliceblue;
+}
+.App {
+  background: #82a6fc33;
+  height: 770px;
+}
+header {
+  text-align: center;
+}
+
+.headshot{
+  margin-top: 15px;
+  width: 200px;
+  border-radius: 100px;
+}
+.profileName, .welcome {
+  font-family: cursive;
+  font-size: larger;
+}
+
+p{
+  font-size: 14px;
+  padding: 2px 0px 0px 0px;
+}
+
+.info {
+  font-family: cursive;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+}
+aside{
+  margin: 10px 10px;
+  padding: 10px;
+  flex: 50%;  
+}
+aside .content {
+  border: 2px solid gray;
+  border-radius: 70px;
+  margin: -90px 0px;
+  padding: 90px 40px;
+  height: 430px;
+  width: 300px;
+  background-color: #f1f5f6;
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    flex-direction: column;
+  }
+  .intro_video{
+    margin-top: 15px;
+    width: 100%;
+  }
+
+}
+.flex-item {
+  margin-top: 50px;
+}
+
+article{
+  padding: 50px;
+  float: right;
+  flex: 50%;
+}
+
+/* ICON */
+.icon {
+  width: 20px;
+  margin: 50px 10px;
+}
+
+.material-icons {
+  float: left;
+}
+
+
+footer{
+  text-align: center;
+  margin-top: 60px;
+}
+
+footer p{
+  margin-top: 0;
+}
+.footer-img{
+  width: 20px;
+  margin: 0;
+}
+
+.Collapsible {
+  color:#007bff;
+  text-align: center;
+}
