@@ -47,13 +47,13 @@ aside{
   flex: 50%;  
 }
 aside .content {
-  border: 1px solid gray;
-  border-radius: 100px;
+  border: 2px solid gray;
+  border-radius: 70px;
   margin: -90px 0px;
   padding: 90px 40px;
   height: 430px;
   width: 300px;
-  background-color: white;
+  background-color: #f1f5f6;
 }
 
 @media screen and (max-width: 800px) {
