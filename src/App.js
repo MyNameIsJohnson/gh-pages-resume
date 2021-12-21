@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import Header from "./Header";
+import Home from "./components/Home"
+// import Header from "./Header";
 import Summary from "./Summary";
 import Work from "./Work";
 import Projects from "./Projects";
@@ -29,17 +30,18 @@ class App extends Component {
     
   render() {
     return (
-      <div className="App container">
+      <div className="App">
+        <Home />
 
-        <Header 
+        {/* <Header 
           // counters={this.state.counters}
           // summary={this.state.summary}
           // increaseCounters={this.increaseCounters}
           // decreaseCounters={this.decreaseCounters}
           // addSummary={this.addSummary}
           // delSummary={this.delSummary}           
-        />
-        <Summary 
+        /> */}
+        {/* <Summary 
           // counters={this.state.counters} 
           // summary={this.state.summary}
         />
@@ -49,7 +51,7 @@ class App extends Component {
         />
         <Education 
         />
-        <Footer />
+        <Footer /> */}
         </div>
     );
   }
