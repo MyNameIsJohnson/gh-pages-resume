@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import headshot from "../public/images/headshot.jpeg"
-import linkedIn from "../public/images/linkedIn.png"
-import gitHub from "../public/images/gitHub.png"
+import headshot from "../../public/images/headshot.jpeg"
+import linkedIn from "../../public/images/linkedIn.png"
+import gitHub from "../../public/images/gitHub.png"
 
 
 class Home extends Component {

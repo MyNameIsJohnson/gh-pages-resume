@@ -12,6 +12,12 @@ body {
   background: #82a6fc33;
   height: 770px;
 }
+
+
+.Navbar {
+  background-color: black;
+  
+}
 header {
   text-align: center;
 }
