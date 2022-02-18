@@ -3,6 +3,8 @@ import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import Dropdown from './Dropdown';
+import logo from "../../public/images/logo.png"
+
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -31,8 +33,7 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-          EPIC
-          <i className='fab fa-firstdraft' />
+          <img className='navbar-image' alt='logo' src={logo}/>
         </Link>
         <div className='menu-icon' onClick={handleClick}>
           <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -59,11 +60,11 @@ function Navbar() {
           </li>
           <li className='nav-item'>
             <Link
-              to='/products'
+              to='/projects'
               className='nav-links'
               onClick={closeMobileMenu}
             >
-              Products
+              Projects
             </Link>
           </li>
           <li className='nav-item'>
@@ -72,10 +73,10 @@ function Navbar() {
               className='nav-links'
               onClick={closeMobileMenu}
             >
-              Contact Us
+              Contact Me
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link
               to='/sign-up'
               className='nav-links-mobile'
@@ -83,9 +84,9 @@ function Navbar() {
             >
               Sign Up
             </Link>
-          </li>
+          </li> */}
         </ul>
-        <Button />
+        {/* <Button /> */}
       </nav>
     </>
   );

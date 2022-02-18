@@ -1,5 +1,5 @@
 .navbar {
-  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  background: linear-gradient(90deg, rgb(120 120 120) 0%, rgb(26, 23, 23) 100%);
   height: 80px;
   display: flex;
   justify-content: center;
@@ -16,9 +16,15 @@
   font-size: 2rem;
 }
 
-.fa-firstdraft {
-  margin-left: 0.5rem;
-  font-size: 1.6rem;
+.navbar-image {
+  position: absolute;
+  /* float: left; */
+  margin: 0px;
+  /* padding: inherit; */
+  width: 50px;
+  left: 10px;
+  top: 20px;
+  border-radius: 20px;
 }
 
 .nav-menu {
@@ -71,9 +77,10 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 90vh;
+    height: 60vh;
     position: absolute;
-    top: 80px;
+    top: 70px;
+    padding: 0px;
     left: -100%;
     opacity: 1;
     transition: all 0.5s ease;

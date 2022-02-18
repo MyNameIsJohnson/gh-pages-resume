@@ -69,6 +69,7 @@ aside .content {
   .intro_video{
     margin-top: 15px;
     width: 100%;
+    height: inherit;
   }
 
 }
