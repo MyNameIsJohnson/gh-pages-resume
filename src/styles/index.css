@@ -50,14 +50,14 @@ p{
 aside{
   margin: 10px 10px;
   padding: 10px;
-  flex: 50%;  
+  /* flex: 50%;   */
 }
 aside .content {
   border: 2px solid gray;
   border-radius: 70px;
-  margin: -90px 0px;
-  padding: 90px 40px;
-  height: 430px;
+  margin: -100px auto;
+  padding: 0px 40px;
+  height: fit-content;
   width: 300px;
   background-color: #f1f5f6;
 }
