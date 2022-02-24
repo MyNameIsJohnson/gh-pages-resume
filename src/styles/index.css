@@ -12,6 +12,12 @@ body {
   background: #82a6fc33;
   height: 770px;
 }
+
+
+.navbar {
+  background-color: white;
+  
+}
 header {
   text-align: center;
 }
@@ -21,8 +27,7 @@ header {
   width: 200px;
   border-radius: 100px;
 }
-.profileName, .welcome {
-  font-family: cursive;
+.profileName {
   font-size: larger;
 }
 
@@ -49,9 +54,9 @@ aside{
 aside .content {
   border: 2px solid gray;
   border-radius: 70px;
-  margin: -90px 0px;
-  padding: 90px 40px;
-  height: 430px;
+  margin: -100px auto;
+  padding: 0px 40px;
+  height: fit-content;
   width: 300px;
   background-color: #f1f5f6;
 }
@@ -63,15 +68,13 @@ aside .content {
   .intro_video{
     margin-top: 15px;
     width: 100%;
+    height: inherit;
   }
 
 }
-.flex-item {
-  margin-top: 50px;
-}
 
 article{
-  padding: 50px;
+  padding: 0px 50px;
   float: right;
   flex: 50%;
 }
