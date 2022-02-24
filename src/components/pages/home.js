@@ -30,8 +30,8 @@ class Home extends Component {
           </div>
         </aside>
         <article className="flex-item">
-          <p className="welcome">Welcome to my page!</p>
-          <p style={{color: "white"}}>Hope you like what I build here! Please feel free to explore. I have included three of my projects and resume information.</p>
+          <h2>Welcome to my page!</h2>
+          <p className="welcome">Hope you like what I build here! Please feel free to explore. I have included three of my projects and resume information.</p>
           <video className=" intro_video" width="750" height="500" controls >
             
           </video>
