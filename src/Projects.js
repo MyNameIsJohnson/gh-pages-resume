@@ -1,7 +1,4 @@
 import React, { Component } from "react";
-import clubhoppin from "./public/videos/clubhoppin.mov";
-import diceracer from "./public/videos/diceracer.mov";
-import pikatsume from "./public/videos/pikatsume.mov";
 import Collapsible from 'react-collapsible';
 
 class Projects extends Component {
@@ -22,7 +19,7 @@ render(){
             <Collapsible className='Collapsible' trigger="See Demo" triggerWhenOpen="Close Demo" >
               <div style={{textAlign: 'center'}}>
                 <video width="750" height="500" controls >
-                  <source src={diceracer} type="video/mp4"/>
+                  <source src={process.env.PUBLIC_URL+'/videos/diceracer.mov'} type="video/mp4"/>
                 </video>
               </div>
             </Collapsible>
@@ -36,7 +33,7 @@ render(){
             <Collapsible className='Collapsible' trigger="See Demo" triggerWhenOpen="Close Demo" >
               <div style={{textAlign: 'center'}}>
                 <video width="750" height="500" controls >
-                  <source src={pikatsume} type="video/mp4"/>
+                  <source src={process.env.PUBLIC_URL+'pikatsume.mov'} type="video/mp4"/>
                 </video>
               </div>
             </Collapsible>
@@ -51,7 +48,7 @@ render(){
           <Collapsible className='Collapsible' trigger="See Demo" triggerWhenOpen="Close Demo" >
             <div style={{textAlign: 'center'}}>
               <video width="750" height="500" controls >
-                <source src={clubhoppin} type="video/mp4"/>
+                <source src={process.env.PUBLIC_URL+'/videos/clubhoppin.mov'} type="video/mp4"/>
               </video>
             </div>  
           </Collapsible>

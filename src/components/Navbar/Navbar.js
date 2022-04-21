@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
+import routes from '../../Config/routes';
+
 import './Navbar.css';
 import Dropdown from './Dropdown';
-import logo from "../../public/images/logo.png"
 
 
 function Navbar() {
@@ -32,8 +33,10 @@ function Navbar() {
   return (
     <>
       <nav className='navbar'>
+      { routes }
+
         <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-          <img className='navbar-image' alt='logo' src={logo}/>
+          <img className='navbar-image' alt='logo' src={process.env.PUBLIC_URL + '/images/logo.png'}/>
         </Link>
         <div className='menu-icon' onClick={handleClick}>
           <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -60,7 +63,7 @@ function Navbar() {
           </li>
           <li className='nav-item'>
             <Link
-              to='/projects'
+              to={'/projects'}
               className='nav-links'
               onClick={closeMobileMenu}
             >

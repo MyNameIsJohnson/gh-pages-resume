@@ -1,25 +1,21 @@
-import React, { Component } from "react";
-import Navbar from './components/Navbar';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
-import Home from './components/pages/home';
-import Switch from "react-bootstrap/esm/Switch";
+import React from 'react';
+import NavbarStyled from './components/Navbar/NavbarStyled';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Home from './pages';
+import Projects from './pages/projects';
 
-class App extends Component {
+  
+function App() {
+  return (
+    <Router>
+      <NavbarStyled />
+      <Switch>
+        <Route exact path='/' component={Home} />
+        <Route path='/projects' component={Projects} />
 
-    
-  render() {
-    return (
-      <Router>
-        <Navbar />
-          <Switch>
-            <Route path='/' exact component={Home} />
-
-          </Switch>
-      </Router>
-    );
-  }
+      </Switch>
+    </Router>
+  );
 }
-
-
-
+  
 export default App;

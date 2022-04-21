@@ -1,9 +1,9 @@
 .navbar {
-  /* background: linear-gradient(90deg, rgb(120 120 120) 0%, rgb(26, 23, 23) 100%); */
+  background: linear-gradient(90deg, rgb(120 120 120) 0%, rgb(26, 23, 23) 100%);
   background-color: white;
   height: 80px;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
   font-size: 2rem;
   border-bottom: solid 1px black;
@@ -59,7 +59,7 @@
 }
 
 .fa-bars {
-  color: #fff;
+  color: white;
 }
 
 .nav-links-mobile {
@@ -118,15 +118,15 @@
   .menu-icon {
     display: block;
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 10px;
+    right: 10px;
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
   }
 
   .fa-times {
-    color: #fff;
+    color: black;
     font-size: 2rem;
   }
 
@@ -152,4 +152,5 @@
   button {
     display: none;
   }
+
 }

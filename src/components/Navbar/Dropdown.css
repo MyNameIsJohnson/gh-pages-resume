@@ -2,7 +2,7 @@
   background: black;
   width: 200px;
   position: absolute;
-  top: 80px;
+  top: 20px;
   list-style: none;
   text-align: start;
 }
@@ -16,7 +16,7 @@
   background: #5cabff;
 }
 
-.dropdown-menu.clicked {
+.dropdown-menu .clicked {
   display: none;
 }
 
@@ -26,7 +26,7 @@
   width: 100%;
   text-decoration: none;
   color: #fff;
-  padding: 16px;
+  padding: 10px;
   font-size: 1rem;
 }
 

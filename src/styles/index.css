@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -13,11 +15,6 @@ body {
   height: 770px;
 }
 
-
-.navbar {
-  background-color: white;
-  
-}
 header {
   text-align: center;
 }
@@ -61,7 +58,7 @@ aside .content {
   background-color: #f1f5f6;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 960px) {
   .container {
     flex-direction: column;
   }
@@ -106,4 +103,4 @@ footer p{
 .Collapsible {
   color:#007bff;
   text-align: center;
-}
+}  
